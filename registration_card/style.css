@@ -1,0 +1,85 @@
+body{
+    background-color: #9b59b6;
+}
+.card{
+    max-width:660px;
+    margin: 150px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5px;
+    gap: 20px;
+    
+}
+.form-group>div{
+    
+    width: 50%;
+}
+
+
+label{
+    font-weight: bold;
+    margin-left: 0px;
+}
+input[type="text"]{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    float: right;
+   
+}
+input[type="password"]{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    float: right;
+   
+}
+input[type="radio"]{
+    margin-top: 20px;
+
+}
+.btn_cancel{
+
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn_cancel:hover{
+background-color: #3498db;
+   
+}
+
+.btn_submit{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn_submit:hover{
+    background-color: #2ecc71;
+}
